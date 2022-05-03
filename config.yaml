@@ -1,0 +1,15 @@
+params:
+  test_size: 0.25
+  random_state: 51
+  file_path: /home/bhupendra/Downloads/mapk_Descriptors1.csv
+  unnecessary_columns: ["name"]
+  epochs: 2
+  batch_size: 32
+  num_classes: 1
+  loss_function: mae
+  optimizer: adam
+  validation_datasize: .25
+  patience: 5
+  restore_best_weight: True
+  verbose: 1
+  kernel_size: 3
